@@ -1,0 +1,22 @@
+console.log("ejercicio 1");
+var a=prompt("ingrese numero a",)
+var b=prompt("ingrese numero b",)
+var c=prompt("ingrese numero c",)
+var discrepante= (b*b)-(4*a*c)
+if(discrepante>=0){
+  let resultado=-b+Math.sqrt(discrepante)/(2*a)
+  console.log("el resultado (+) de la ecucion cuadratica es: "+resultado)
+}else
+  console.log("La ecuacion no tiene solucion")
+
+
+console.log("ejercicio 2");
+//var discrepante= (b*b)-(4*a*c)
+if(discrepante>=0){
+  let resultado=-b-Math.sqrt(discrepante)/(2*a)
+  console.log("el resultado (-) de la ecucion cuadratica es: "+resultado)
+}else
+  console.log("La ecuacion no tiene solucion")
+
+
+
